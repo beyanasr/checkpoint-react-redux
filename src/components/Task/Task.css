@@ -1,0 +1,37 @@
+.list {
+  color: #fff;
+  width: 300px;
+  margin: 20px auto;
+  height: 50px;
+  background-color: #bf07ac;
+  border-radius: 5px;
+}
+.task-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.task-card p {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.task-card Button {
+  margin: 0 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+.gdone {
+  color: white;
+  background-color: green;
+}
+.rdone {
+  color: white;
+  background-color: red;
+}
